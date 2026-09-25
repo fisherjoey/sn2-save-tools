@@ -1,0 +1,20 @@
+# Save files and backups are personal game data. Never commit them.
+*.sav
+*.sav.*
+*.bak
+*.backup
+backup*/
+backups/
+SaveGames/
+# Decompressed dumps
+*.bin
+out/
+# Oodle / ooz binaries are not redistributable here
+*.so
+*.so.*
+*.dll
+ooz
+# Python
+__pycache__/
+*.pyc
+.venv/
